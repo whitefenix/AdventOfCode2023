@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode;
 
-public interface Task
+public interface ITask
 {
     public void RunTask();
 }

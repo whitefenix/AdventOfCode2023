@@ -1,9 +1,9 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode;
+namespace AdventOfCode.Day1;
 
-class Day1Task2 : Task {         
+class Day1Task2 : ITask {         
     public void RunTask() {
         int totalSum = 0;
             

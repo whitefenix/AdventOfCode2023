@@ -1,5 +1,4 @@
-﻿using AdventOfCode.Day1;
-using AdventOfCode.Day2;
+﻿using AdventOfCode.Day3;
 
 namespace AdventOfCode;
 
@@ -7,7 +6,7 @@ public class MainClass
 {
     static void Main(string[] args)
     {
-        var currentTask = new Day2Task2();
+        var currentTask = new Day3Task2();
         currentTask.RunTask();
     }
 }

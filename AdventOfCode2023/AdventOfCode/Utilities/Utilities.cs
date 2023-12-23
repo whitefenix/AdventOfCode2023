@@ -21,4 +21,14 @@ public class Utilities
         }
         return int.Parse(combinedString);
     }
+
+    public static List<int> ParseNumbersToList(IEnumerable<string> numberString)
+    {
+        return numberString.Select(int.Parse).ToList();
+    }
+
+    public static bool ListHasAnyValues(IEnumerable<int> input)
+    {
+        return input.Any(number => number != 0);
+    }
 }
